@@ -1,0 +1,150 @@
+body {
+    font-size: 80%;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0.15em;
+    background: url('images/Beats3.jpg');
+    /* scroll-behavior: smooth; */
+}
+
+#page {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    border: 4px double #000;
+    background-color: #000;
+}
+
+#logo {
+    width: 160px;
+    margin: auto 270px auto 280px;
+}
+
+ul {
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0px 3px;
+}
+
+/* slider */
+slide-viewer {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+
+.slide:first-child {
+    display: block;
+}
+
+p {
+    text-align: center;
+    width: 800px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 120%;
+    color: #c4c3c3;
+}
+
+a {
+    color: #7dfc07;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;
+}
+
+a:hover, a.on {
+    color: #cc3333;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #c4c3c3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure {
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #2d9cdb;
+    border: none;
+    border-radius: .9em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: aquamarine;
+}
+
+.products-item {
+    margin: 30px;
+}
+
+.sale-item-price {
+    flex-grow: 100%;
+    color: #fd0404;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+}
+
+.nav a:hover {
+    background-color: #ffffff4d;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    font-size: 120%;
+    color: #000;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 5px 30px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
